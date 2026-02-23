@@ -1,0 +1,5 @@
+{
+  "name": "Mr. door Oakville",
+  "description": "Professional door and window repair and installation services in Oakville, Ontario. Expert technicians for residential and commercial needs by Mr. door.",
+  "requestFramePermissions": ["geolocation"]
+}
