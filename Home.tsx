@@ -112,8 +112,17 @@ export const Home = () => {
               </div>
             </div>
             <div className="relative">
-              <div className="aspect-square rounded-3xl overflow-hidden shadow-2xl bg-slate-200 flex items-center justify-center">
-                <p className="text-slate-400 font-bold">Map Placeholder</p>
+              <div className="aspect-square rounded-3xl overflow-hidden shadow-2xl bg-slate-200">
+                <iframe 
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d92633.2530132338!2d-79.7711442!3d43.4374341!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b5b9010d97279%3A0x28c9c3d99a7c3711!2sOakville%2C%20ON!5e0!3m2!1sen!2sca!4v1700000000000!5m2!1sen!2sca" 
+                  width="100%" 
+                  height="100%" 
+                  style={{ border: 0 }} 
+                  allowFullScreen={true} 
+                  loading="lazy" 
+                  referrerPolicy="no-referrer-when-downgrade"
+                  title="Oakville Map"
+                ></iframe>
               </div>
               <div className="absolute -bottom-6 -left-6 bg-white p-6 rounded-2xl shadow-xl border border-slate-100 max-w-xs">
                 <div className="flex items-center gap-4 mb-2">
